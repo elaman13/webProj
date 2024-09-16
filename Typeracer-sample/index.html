@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TypeRacer</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <div class="nav">
+      <div class="logo">
+        <h4>typeracer</h4>
+      </div>
+      <div class="menu">
+        <ul class="menu-list">
+          <li>Pit Stop</li>
+          <li>Updates</li>
+          <li>Discord</li>
+          <li>About</li>
+          <li>Merch</li>
+          <li id="sub-btn">Subscribe</li>
+        </ul>
+      </div>
+      <div class="account">
+        <button class="profile">
+          <i class="nav-icons bi bi-person-circle"></i>
+        </button>
+        <div class="text-and-btn">
+          <p>Elyas (ela_man13)</p>
+          <button id="upgrade-btn">UPGRADE</button>
+        </div>
+        <button>71 WPM</button>
+        <button>4695 Races</button>
+        <button class="acc-man">
+          <i class="nav-icons bi bi-gear-fill"></i>
+        </button>
+        <button class="acc-man">
+          <i class="nav-icons bi bi-box-arrow-right"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- body -->
+    <div class="empty-space"></div>
+    <div class="game-playground">
+      <div class="ad">
+        <div class="texts">
+          <h3>Unlock more features with TypeRacer Premium!</h3>
+          <p>
+            Get access to hundreds of avatars to race with, ad-free experience
+            and more!
+          </p>
+        </div>
+        <button>Subscribe Now!</button>
+      </div>
+      <div class="race-div">
+        <h2>TypeRacer - The Global Typing Competition</h2>
+        <p>Increase your typing speed while racing against others!</p>
+        <button id="start-racing">Enter a Typing Race</button>
+        <div class="race-settings">
+          <p>Language: <span>English</span></p>
+          <div class="death-mode">
+            <p>Instant Death Mode:</p>
+            <input type="checkbox" id="check-box" />
+          </div>
+          <p>Theme: <span>Dark</span></p>
+          <div class="link-address">
+            <ul class="link-list">
+              <li><i class="black-bg bi bi-discord"></i></li>
+              <li><i class="black-bg bi bi-facebook"></i></li>
+              <li><i class="black-bg bi bi-tiktok"></i></li>
+              <li><i class="black-bg bi bi-youtube"></i></li>
+              <li><i class="black-bg bi bi-twitter"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="play-mode">
+      <div class="game-mode">
+        <h3>Typing Test</h3>
+        <p>Improve your typing skills on your own</p>
+        <p class="default-btn"><i class="black-bg bi-lock"></i> Default</p>
+        <button>Practice Yourself</button>
+      </div>
+      <div class="game-mode">
+        <h3>Race your friends</h3>
+        <p>Create your own racetrack and play with friends</p>
+        <p class="default-btn"><i class="black-bg bi-lock"></i> Default</p>
+        <button id="new-btn-color">Create Racetrack</button>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,351 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: #111111;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+/* Top bar*/
+.nav {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222222;
+}
+
+/* typeracer logo (top-left corner) */
+.logo h4 {
+  padding-left: 10px;
+  cursor: pointer;
+  background-color: #222222;
+}
+
+.logo h4:hover {
+  text-decoration: underline;
+}
+
+/* Top bar menu (Pit Stop, Updates, Discord, About, Merch) */
+.menu {
+  width: 40%;
+}
+
+/* ul of menu*/
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  background-color: #222222;
+}
+
+.menu-list li {
+  cursor: pointer;
+  background-color: #222222;
+}
+
+.menu-list li:hover {
+  text-decoration: underline;
+}
+
+/* Top bar (Subscribe button) */
+.menu-list #sub-btn {
+  width: 140px;
+  height: 35px;
+  font-size: 1.05em;
+  font-weight: bold;
+  background-color: #ffd721;
+  color: #005d88;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 35px;
+}
+
+/* div - Account information top right corner (upgrade, wpm, races, setting, logout) */
+.account {
+  width: 36%;
+  background-color: #222222;
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+}
+
+.account button {
+  width: 100px;
+  height: 20px;
+  border-radius: 5px;
+  background-color: #8658ba;
+  border: none;
+  cursor: pointer;
+}
+
+.account #upgrade-btn {
+  background-color: #ffd620;
+  color: #284117;
+  width: 130px;
+}
+
+/* account setting top-right corner*/
+.account .acc-man {
+  width: 25px;
+  border-radius: 5px;
+}
+
+/* icons class */
+.nav-icons {
+  background-color: #8658ba;
+}
+
+/* Top bar profile button */
+.account .profile {
+  width: 55px;
+  height: 45px;
+}
+
+/* profile icon */
+.profile .bi-person-circle {
+  font-size: 34px;
+}
+
+/* subscribe button icon */
+.sub-btn .bi-star-fill {
+  background-color: #ffd721;
+}
+
+/* Top bar - upgrade and username (div)*/
+.text-and-btn {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  background-color: #222222;
+}
+
+/* Top bar - username */
+.text-and-btn p {
+  display: inline;
+  background-color: #222222;
+  cursor: pointer;
+  font-size: 0.92em;
+  font-weight: bold;
+}
+
+.text-and-btn p:hover {
+  text-decoration: underline;
+}
+
+/* -------------------------------- END OF TOP BAR ------------------------------------*/
+
+/* whitespace below the top bar */
+.empty-space {
+  margin: 20px 0 0 25px;
+  width: 90%;
+  height: 80px;
+  background-color: #1f1e1e;
+}
+
+/* body - playground - Ads and Enter a typing racer (div)*/
+.game-playground {
+  width: 64%;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* ads 'unlock more features with Typeraer premium */
+.game-playground .ad {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: #222222;
+  border-radius: 10px;
+  padding: 0 15px 0 15px;
+}
+
+/* Ads text */
+.texts {
+  background-color: #222222;
+}
+
+.texts h3 {
+  background-color: #222222;
+  padding-bottom: 5px;
+}
+
+.texts p {
+  background-color: #222222;
+}
+
+/* ad - subscribe now! - button */
+.ad button {
+  width: 150px;
+  height: 60px;
+  border-radius: 6px;
+  border: none;
+  background-color: #8656ba;
+  font-weight: bold;
+  font-size: 0.96em;
+  cursor: pointer;
+}
+
+.ad button:hover {
+  background-color: #8656ba83;
+}
+
+/* playground (div)*/
+.race-div {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #222222;
+}
+
+/* TypeRacer - The Global Typing Competition */
+.race-div h2 {
+  background-color: #222222;
+}
+
+.race-div p {
+  background-color: #222222;
+}
+
+/* playground - Enter a Typing Race button */
+.race-div #start-racing {
+  width: 300px;
+  height: 70px;
+  border-radius: 8px;
+  border: none;
+  background-color: #4cb050;
+  font-size: 1.1em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.race-div #start-racing:hover {
+  background-color: #4cb04f96;
+}
+
+/* playground - bottom menu */
+.race-div .race-settings {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  background-color: #222222;
+}
+
+/* language and Theme */
+.race-settings p span {
+  color: #6e5691;
+  background-color: #222222;
+}
+
+.race-settings p span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* playground - bottom icons (div)*/
+.link-address {
+  width: 40%;
+}
+
+/* ul */
+.link-address .link-list {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 25px;
+  list-style-type: none;
+  background-color: #222222;
+}
+
+.link-address .link-list li {
+  background-color: #222222;
+  font-size: 1.6em;
+}
+
+.death-mode {
+  display: flex;
+  gap: 5px;
+  background-color: #222222;
+}
+
+/* icons */
+.black-bg {
+  background-color: #222222;
+}
+
+/* ------------------------------------------------------------------------------- */
+
+/* below playgrond - Typing test and Race your friends div */
+.play-mode {
+  width: 64%;
+  margin-left: 25px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+/* the two boxes */
+.play-mode .game-mode {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: start;
+  width: 49%;
+  padding: 15px 0 25px 25px;
+  background-color: #222222;
+  border-radius: 6px;
+}
+
+.play-mode .game-mode h3 {
+  background-color: #222222;
+}
+
+.play-mode .game-mode p {
+  font-size: 0.8em;
+  background-color: #222222;
+}
+
+.play-mode .game-mode .default-btn {
+  width: 62%;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 6px;
+  border: 1px solid rgb(46, 45, 45);
+  padding-left: 10px;
+}
+
+.play-mode .game-mode button {
+  width: 200px;
+  height: 50px;
+  border-radius: 6px;
+  border: none;
+  background-color: #005995;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.play-mode .game-mode button:hover {
+  background-color: #0059958a;
+}
+
+#new-btn-color {
+  background-color: #f37c1c;
+}
+
+#new-btn-color:hover {
+  background-color: #f37d1c9a;
+}
